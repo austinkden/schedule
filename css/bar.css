@@ -132,7 +132,7 @@ body{
     width: 10%;
     height: 100%;
     color: var(--text-color);
-    border-radius: 7px;
+    border-radius: 14px 7px 7px 14px;
     overflow: hidden;
    background: repeating-linear-gradient(75deg, var(--progress-bar-color-1) 0%, var(--progress-bar-color-2) 50%, var(--progress-bar-color-1) 100%);
     width: 100%;
