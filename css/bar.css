@@ -2,9 +2,21 @@
 
 :root {
     --text-color: #FFFFFF;
+
     --font-family: 'DM Sans';
+
     --background: linear-gradient(70deg, #01401E, #B19539);
-    --text-background: rgba(255, 255, 255, 0.75);
+
+    --text-background: rgba(255, 255, 255, 0.5);
+
+    --progress-bar-animation-length:;
+
+    --progress-bar-color-1:;
+
+    --progress-bar-color-2:;
+
+    --progress-bar- 
+
 }
 
 /* DO NOT EDIT BELOW THIS TEXT (UNLESS YOU KNOW WHAT YOU'RE DOING */
@@ -32,11 +44,9 @@ body{
     font-size: 3vw;
 }
 .footer_container{
-    background: rgba(255, 255, 255, 0.75);
+    background: var(--text-background);
     border-radius:15px;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Varela Round', sans-serif;
-    color: #38761d;
+    color: var(--text-color);
    /* color: #FFAB0D;*/
     text-align: center;
     font-size: 2vw;
@@ -45,7 +55,7 @@ body{
 
 
 .title{
-    color: #38761d;
+    color: var(--text-color);
    /* color: #FFAB0D;*/
     text-align: center;
     width: 100vw;
@@ -54,14 +64,12 @@ body{
 
 .end{
    color: #38761d;
-    background: rgba(255, 255, 255, 0.75);
+   background: var(--text-background);
      /*background: rgba(117, 24,7,0.75);
     color: #FFAB0D;*/
     border-radius: 15px;
     text-align: center;
     font-size: 5vw;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Varela Round', sans-serif;
     font-weight: bold;
     display: table;
     margin: 0 auto;
@@ -76,28 +84,23 @@ body{
 .text_container{
     font-weight: bold;
     font-size: 3vw;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Varela Round', sans-serif;
     padding-bottom: 3vw;
 }
 
 
 .date{
-    color: #38761d;
-    /*color: #FFAB0D;*/
-   background: rgba(255, 255, 255, 0.75);
-    /* background: rgba(117, 24,7,0.75);*/
+    color: var(--text-color);
+    background: var(--text-background);
     border-radius: 15px;
     text-align: center;
     padding: 10px;
+    margin-left: 25px;
 }
 .period{
-    color: #38761d;
-    /*color: #FFAB0D;*/
+    color: var(--text-color);
     float: right;
     margin-right: 25px;
-    background: rgba(255, 255, 255, 0.75);
-   /* background: rgba(117, 24,7,0.75);*/
+    background: var(--text-background);
     padding: 0px 20px 0px 20px;
     border-radius: 15px;
     text-align: center;
@@ -127,7 +130,7 @@ body{
 .progress_bar {
     width: 10%;
     height: 100%;
-    background-color: #38761d;
+    color: var(--text-color);
     border-radius: 10px;
     overflow: hidden;
    background: repeating-linear-gradient(to right, green 0%, olive 50%, green 100%);
@@ -151,13 +154,11 @@ body{
 }
 
 #clock {
-    color: #38761d;
+    color: var(--text-color);
   /*  color: #FFAB0D;*/
     text-align: center;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Varela Round', sans-serif;
     font-size: 5vw;
     margin: 0;
 
