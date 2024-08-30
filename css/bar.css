@@ -7,15 +7,13 @@
 
     --background: linear-gradient(70deg, #01401E, #B19539);
 
-    --text-background: rgba(255, 255, 255, 0.5);
+    --text-background: rgba(0, 0, 0, 0.5);
 
-    --progress-bar-animation-length:;
+    --progress-bar-animation-length: 5s;
 
-    --progress-bar-color-1:;
+    --progress-bar-color-1: #01401E;
 
-    --progress-bar-color-2:;
-
-    --progress-bar- 
+    --progress-bar-color-2: #B19539;
 
 }
 
@@ -45,9 +43,7 @@ body{
 }
 .footer_container{
     background: var(--text-background);
-    border-radius:15px;
     color: var(--text-color);
-   /* color: #FFAB0D;*/
     text-align: center;
     font-size: 2vw;
     
@@ -63,11 +59,11 @@ body{
 }
 
 .end{
-   color: #38761d;
+   color: var(--text-color);
    background: var(--text-background);
      /*background: rgba(117, 24,7,0.75);
     color: #FFAB0D;*/
-    border-radius: 15px;
+    border-radius: 18px;
     text-align: center;
     font-size: 5vw;
     font-weight: bold;
@@ -91,7 +87,7 @@ body{
 .date{
     color: var(--text-color);
     background: var(--text-background);
-    border-radius: 15px;
+    border-radius: 18px;
     text-align: center;
     padding: 10px;
     margin-left: 25px;
@@ -102,7 +98,7 @@ body{
     margin-right: 25px;
     background: var(--text-background);
     padding: 0px 20px 0px 20px;
-    border-radius: 15px;
+    border-radius: 18px;
     text-align: center;
     padding: 10px;
 }
@@ -123,7 +119,7 @@ body{
     margin: auto;
     height: 4vw;
     background-color: #bdaa70ff;
-    border-radius: 10px;
+    border-radius: 14px;
     position: relative;
 }
 
@@ -131,14 +127,13 @@ body{
     width: 10%;
     height: 100%;
     color: var(--text-color);
-    border-radius: 10px;
+    border-radius: 7px;
     overflow: hidden;
    background: repeating-linear-gradient(to right, green 0%, olive 50%, green 100%);
-    /*  background: repeating-linear-gradient(to right, DarkRed 0%, gold 50%, DarkRed 100%);*/
     width: 100%;
     background-size: 200% auto;
     background-position: 0 100%;
-    animation: gradient 5s infinite;
+    animation: gradient var(--progress-bar-animation-length) infinite;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
 }
@@ -148,14 +143,13 @@ body{
     top: 50%;
     transform: translateY(-50%);
     right: 10px;
-    color: white;
+    color: var(--font-family);
     font-weight: bold;
     font-size: 4vw;
 }
 
 #clock {
     color: var(--text-color);
-  /*  color: #FFAB0D;*/
     text-align: center;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
