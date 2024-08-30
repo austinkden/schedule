@@ -7,7 +7,7 @@
 }
 
 body{
-   background-image: var(--background)
+   background-image: var(--background);
    /*  background-image: url(../images/MVHS-Logo.png), linear-gradient(45deg, #000000, #FFAB0D, #751807);*/
     height: 100vh;
     width: 100vw;
