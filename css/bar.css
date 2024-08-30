@@ -15,6 +15,7 @@
 
     --progress-bar-color-2: #B19539;
 
+    --progress-bar-background: rgba(0, 0, 0, 0.5);
 }
 
 /* DO NOT EDIT BELOW THIS TEXT (UNLESS YOU KNOW WHAT YOU'RE DOING */
@@ -37,8 +38,6 @@ body{
 .title_container{
     margin-bottom: 8vh;
   background: var(--text-background);
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
     font-size: 3vw;
 }
 .footer_container{
@@ -90,12 +89,12 @@ body{
     border-radius: 18px;
     text-align: center;
     padding: 10px;
-    margin-left: 25px;
+    margin-left: 40px;
 }
 .period{
     color: var(--text-color);
     float: right;
-    margin-right: 25px;
+    margin-right: 40px;
     background: var(--text-background);
     padding: 0px 20px 0px 20px;
     border-radius: 18px;
@@ -108,7 +107,7 @@ body{
 }
 
 .names{
-	color: white;
+	color: var(--text-color);
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -118,7 +117,7 @@ body{
     width: 75%;
     margin: auto;
     height: 4vw;
-    background-color: #bdaa70ff;
+    background-color: var(--progress-bar-background);
     border-radius: 14px;
     position: relative;
 }
@@ -151,8 +150,6 @@ body{
 #clock {
     color: var(--text-color);
     text-align: center;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
     font-size: 5vw;
     margin: 0;
 
