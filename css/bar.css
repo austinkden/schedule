@@ -129,7 +129,7 @@ body{
     color: var(--text-color);
     border-radius: 7px;
     overflow: hidden;
-   background: repeating-linear-gradient(to right, green 0%, olive 50%, green 100%);
+   background: repeating-linear-gradient(75deg, var(--progress-bar-color-1) 0%, var(--progress-bar-color-2) 50%, var(--progress-bar-color-1) 100%);
     width: 100%;
     background-size: 200% auto;
     background-position: 0 100%;
@@ -143,7 +143,7 @@ body{
     top: 50%;
     transform: translateY(-50%);
     right: 10px;
-    color: var(--font-family);
+    color: var(--text-color);
     font-weight: bold;
     font-size: 4vw;
 }
