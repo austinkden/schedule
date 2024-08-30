@@ -16,6 +16,8 @@
     --progress-bar-color-2: #B19539;
 
     --progress-bar-background: rgba(0, 0, 0, 0.5);
+
+    --progress-bar-border: #FFFFFF;
 }
 
 /* DO NOT EDIT BELOW THIS TEXT (UNLESS YOU KNOW WHAT YOU'RE DOING */
@@ -116,10 +118,11 @@ body{
 .progress_container {
     width: 75%;
     margin: auto;
-    height: 4vw;
+    height: 5.5vw;
     background-color: var(--progress-bar-background);
     border-radius: 14px;
     position: relative;
+    border: 2px solid var(--progress-bar-border);
 }
 
 .progress_bar {
