@@ -11,7 +11,7 @@
 
     --text-background: rgba(0, 0, 0, 0.5);
 
-    --progress-bar-animation-length: 5s;
+    --progress-bar-animation-length: 6s;
 
     --progress-bar-color-1: #01401E;
 
@@ -40,9 +40,10 @@ body {
 }
 
 .title_container {
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center; /* Center both the image and the clock */
+    justify-content: center; /* Centers the clock horizontally */
     margin-bottom: 8vh;
     background: var(--text-background);
     font-size: 3vw;
@@ -160,10 +161,10 @@ body {
 
 #clock {
     color: var(--text-color);
-    text-align: center;
     font-size: 5vw;
     margin: 0;
 }
+
 @keyframes gradient { 
   0%   { background-position: 0 0; }
   100% { background-position: -200% 0; }
@@ -178,6 +179,12 @@ body {
 
 #mvhs-logo {
     height: 5vw; /* Adjust this value to match the size of the clock */
-    vertical-align: middle;
-    margin-right: 1vw; /* Add some space between the image and the clock */
+}
+
+.logo_container {
+    position: absolute;
+    left: 20px; /* 20px from the left of the screen */
+    display: flex;
+    align-items: center; /* Center vertically within the container */
+    height: 100%; /* Ensures the logo container takes up the full height */
 }
