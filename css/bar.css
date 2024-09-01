@@ -183,7 +183,7 @@ body {
 
 .logo_container {
     position: absolute;
-    left: 20px; /* 20px from the left of the screen */
+    left: 15px; /* 20px from the left of the screen */
     display: flex;
     align-items: center; /* Center vertically within the container */
     height: 100%; /* Ensures the logo container takes up the full height */
