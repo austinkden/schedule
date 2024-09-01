@@ -25,10 +25,23 @@
 			<script>
 				var clockElement = document.getElementById("clock");
 				setInterval(function () {
-					var timeString = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+					var now = new Date();
+					var hours = now.getHours();
+					var minutes = now.getMinutes();
+					var seconds = now.getSeconds();
+			
+					// Convert to 12-hour format
+					hours = hours % 12 || 12;
+			
+					// Add leading zeros to minutes and seconds if needed
+					minutes = minutes < 10 ? '0' + minutes : minutes;
+					seconds = seconds < 10 ? '0' + seconds : seconds;
+			
+					var timeString = hours + ':' + minutes + ':' + seconds;
 					clockElement.innerHTML = timeString;
 				}, 1000);
 			</script>
+			
 			
 		</h3>
 	</div>
