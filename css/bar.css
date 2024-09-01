@@ -28,7 +28,7 @@
     font-family: var(--font-family)
 }
 
-body{
+body {
    background-image: var(--background);
     height: 100vh;
     width: 100vw;
@@ -39,12 +39,16 @@ body{
     margin: 0;
 }
 
-.title_container{
+.title_container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center both the image and the clock */
     margin-bottom: 8vh;
-  background: var(--text-background);
+    background: var(--text-background);
     font-size: 3vw;
 }
-.footer_container{
+
+.footer_container {
     background: var(--text-background);
     color: var(--text-color);
     text-align: center;
@@ -159,9 +163,7 @@ body{
     text-align: center;
     font-size: 5vw;
     margin: 0;
-
 }
-
 @keyframes gradient { 
   0%   { background-position: 0 0; }
   100% { background-position: -200% 0; }
@@ -171,4 +173,11 @@ body{
 	0% { background-position: 0% 50%}
 	50% { background-position: 100% 50%}
 	100% { background-position: 0% 50%}
+}
+
+
+#mvhs-logo {
+    height: 5vw; /* Adjust this value to match the size of the clock */
+    vertical-align: middle;
+    margin-right: 1vw; /* Add some space between the image and the clock */
 }
