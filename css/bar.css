@@ -71,6 +71,7 @@ body {
     border-radius: 16px;
     display: flex;
     flex-direction: column;
+    height: 5vh;
 }
 
 
