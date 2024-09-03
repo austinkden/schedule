@@ -51,6 +51,16 @@ body {
     font-size: 3vw;
 }
 
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align items at the bottom of the container */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
 .footer_container {
     background: var(--text-background);
     color: var(--text-color);
