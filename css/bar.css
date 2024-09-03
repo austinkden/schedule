@@ -51,27 +51,12 @@ body {
     font-size: 3vw;
 }
 
-.footer-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end; /* Align items at the bottom of the container */
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 35px;
-}
-
 .footer_container {
     background: var(--text-background);
     color: var(--text-color);
     text-align: center;
     font-size: 2vw;
-    width: 80%;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    height: 5vh;
+    
 }
 
 
@@ -88,7 +73,7 @@ body {
    background: var(--text-background);
      /*background: rgba(117, 24,7,0.75);
     color: #FFAB0D;*/
-    border-radius: 16px;
+    border-radius: 18px;
     text-align: center;
     font-size: 5vw;
     font-weight: bold;
@@ -112,24 +97,24 @@ body {
 .date{
     color: var(--text-color);
     background: var(--text-background);
-    border-radius: 16px;
+    border-radius: 18px;
     text-align: center;
-    padding: 15px;
-    margin-left: 50px;
+    padding: 10px;
+    margin-left: 40px;
 }
 .period{
     color: var(--text-color);
     float: right;
-    margin-right: 50px;
+    margin-right: 40px;
     background: var(--text-background);
     padding: 0px 20px 0px 20px;
-    border-radius: 16px;
+    border-radius: 18px;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .bar-placeholder{
-    padding: 15px;
+    padding: 10px;
 }
 
 .names{
@@ -137,7 +122,7 @@ body {
 	position: absolute;
 	bottom: 0;
 	right: 0;
-    margin: 4px;
+    margin: 3px;
     font-size: 16px;
 }
 
@@ -146,7 +131,7 @@ body {
     margin: auto;
     height: 5.5vw;
     background-color: var(--progress-bar-background);
-    border-radius: 16px;
+    border-radius: 14px;
     position: relative;
     border: 2px solid var(--progress-bar-border);
 }
@@ -155,7 +140,7 @@ body {
     width: 10%;
     height: 100%;
     color: var(--text-color);
-    border-radius: 16px;
+    border-radius: 14px;
     overflow: hidden;
     background: repeating-linear-gradient(var(--progress-bar-angle), var(--progress-bar-color-1), var(--progress-bar-color-2), var(--progress-bar-color-1));
     background-size: 200% auto;
