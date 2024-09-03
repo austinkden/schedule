@@ -142,7 +142,7 @@ body {
     color: var(--text-color);
     border-radius: 14px;
     overflow: hidden;
-    background: repeating-linear-gradient(var(--progress-bar-angle), var(--progress-bar-color-1), var(--progress-bar-color-2));
+    background: repeating-linear-gradient(var(--progress-bar-angle), var(--progress-bar-color-1), var(--progress-bar-color-2), var(--progress-bar-color-1));
     background-size: 200% auto;
     background-position: 0 100%;
     animation: gradient var(--progress-bar-animation-length) infinite;
