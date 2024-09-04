@@ -5,7 +5,7 @@
 :root {
     --text-color: #FFFFFF;
 
-    --font-family: 'DM Sans';
+    --font-family: 'DM Sans', sans-serif;
 
     --background: linear-gradient(70deg, #01401E, #B19539);
 
