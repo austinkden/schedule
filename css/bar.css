@@ -37,12 +37,13 @@
 
 /* DO NOT EDIT BELOW THIS TEXT (UNLESS YOU KNOW WHAT YOU'RE DOING) */
 
-* {
-    font-family: var(--font-family)
-}
+/* * {
+    font-family: var(--font-family);
+} */
 
 body {
    background-image: var(--background);
+   font-family: var(--font-family);
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -59,12 +60,14 @@ body {
     justify-content: center; /* Centers the clock horizontally */
     margin-bottom: 8vh;
     background: var(--text-background);
+    font-family: var(--font-family);
     font-size: 3vw;
 }
 
 .footer_container {
     background: var(--text-background);
     color: var(--text-color);
+    font-family: var(--font-family);
     text-align: center;
     font-size: 2vw;
     
@@ -82,6 +85,7 @@ body {
 .end{
    color: var(--text-color);
    background: var(--text-background);
+   font-family: var(--font-family);
      /*background: rgba(117, 24,7,0.75);
     color: #FFAB0D;*/
     border-radius: 18px;
@@ -108,6 +112,7 @@ body {
 .date{
     color: var(--text-color);
     background: var(--text-background);
+    font-family: var(--font-family);
     border-radius: 18px;
     text-align: center;
     padding: 10px;
@@ -115,6 +120,7 @@ body {
 }
 .period{
     color: var(--text-color);
+    font-family: var(--font-family);
     float: right;
     margin-right: 40px;
     background: var(--text-background);
@@ -129,9 +135,10 @@ body {
 }
 
 .names{
-	color: var(--text-color);
+	color: rgba(127, 127, 127, 0.5);
 	position: absolute;
 	bottom: 0;
+    font-family: var(--font-family);
 	right: 0;
     margin: 3px;
     font-size: 16px;
@@ -142,6 +149,7 @@ body {
     margin: auto;
     height: 5.5vw;
     background-color: var(--progress-bar-background);
+    font-family: var(--font-family);
     border-radius: 14px;
     position: relative;
     border: 2px solid var(--progress-bar-border);
@@ -151,6 +159,7 @@ body {
     width: 10%;
     height: 100%;
     color: var(--text-color);
+    font-family: var(--font-family);
     border-radius: 14px;
     overflow: hidden;
     background: repeating-linear-gradient(var(--progress-bar-angle), var(--progress-bar-color-1), var(--progress-bar-color-2), var(--progress-bar-color-1));
@@ -167,6 +176,7 @@ body {
     transform: translateY(-50%);
     right: 10px;
     color: var(--text-color);
+    font-family: var(--font-family);
     font-weight: bold;
     font-size: 4vw;
 }
