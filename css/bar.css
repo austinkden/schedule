@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 /* ONLY EDIT ABOVE THIS LINE TO ADD FONTS - EDIT BELOW THIS LINE TO UPDATE VARIABLES/STYLES */
-/* AFTER HOMECOMING: DELETE LINE 162 AND UNCOMMENT LINE 161 */
+/* AFTER HOMECOMING: DELETE LINE 179 AND UNCOMMENT LINE 178 */
 
 :root {
     --text-color: #000000;
@@ -158,8 +158,7 @@ body {
 .progress_bar {
     width: 10%;
     height: 100%;
-    /* color: var(--text-color); */
-    color: white;
+    color: var(--text-color);
     font-family: var(--font-family);
     border-radius: 14px;
     overflow: hidden;
@@ -176,7 +175,8 @@ body {
     top: 50%;
     transform: translateY(-50%);
     right: 10px;
-    color: var(--text-color);
+    /* color: var(--text-color); */
+    color: white;
     font-family: var(--font-family);
     font-weight: bold;
     font-size: 4vw;
