@@ -196,6 +196,10 @@ body {
     height: 5vw; /* Adjust this value to match the size of the clock */
 }
 
+#img {
+    height: 5vw;
+}
+
 .logo_container {
     position: absolute;
     left: 15px;
