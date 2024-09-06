@@ -27,6 +27,8 @@
     --progress-bar-background: rgba(0, 0, 0, 0.5);
 
     --progress-bar-border: #FFFFFF;
+
+    --names-color: rgba(127, 127, 127, 0.5);
 }
 
 /* DO NOT EDIT BELOW THIS TEXT (UNLESS YOU KNOW WHAT YOU'RE DOING) */
@@ -129,7 +131,7 @@ body {
 }
 
 .names{
-	color: rgba(127, 127, 127, 0.5);
+	color: var(--names-color);
 	position: absolute;
 	bottom: 0;
     font-family: var(--font-family);

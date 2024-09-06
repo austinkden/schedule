@@ -30,6 +30,8 @@
     --progress-bar-background: rgba(0, 0, 0, 0.5);
 
     --progress-bar-border: #FFFFFF;
+
+    --names-color: #FFFFFF;
 }
 
 
@@ -59,5 +61,7 @@
     --progress-bar-background: rgba(0, 0, 0, 0.5);
 
     --progress-bar-border: #FFFFFF;
+
+    --names-color: rgba(127, 127, 127, 0.5);
 }
 
