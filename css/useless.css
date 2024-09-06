@@ -7,7 +7,7 @@
 
 
 
-/* HOMECOMING: POWDER PUFF */
+/* MON HOMECOMING: POWDER PUFF */
 :root {
     --text-color: #ffffff;
 
@@ -37,7 +37,7 @@
 
 
 
-/* HOMECOMING: CLASS LEVEL COLORS (RED FOR FRESHMAN!!!) */
+/* TUES HOMECOMING: CLASS LEVEL COLORS (RED FOR FRESHMAN!!!) */
 :root {
     --text-color: #ffffff;
 
@@ -67,7 +67,38 @@
 
 
 
-/* HOMECOMING: BLACKOUT */
+/* THURS HOMECOMING: WHITE/TOGA */
+:root {
+    --text-color: #000000;
+
+    --font-family: 'Lora', 'DM Sans', sans-serif;
+
+    --clock-font-family: 'DM Mono', sans-serif;
+    /* This font should always remain DM Mono, another Monospace font, or another font that is very easy to read numbers in. */
+
+    --background: linear-gradient(70deg, #ffffff, #c6c6c6);
+
+    --text-background: rgba(0, 0, 0, 0.5);
+
+    --progress-bar-animation-length: 8s;
+    /* Pre-hoco: 6s */
+
+    --progress-bar-angle: to right;
+
+    --progress-bar-color-1: #ffffff;
+
+    --progress-bar-color-2: #c6c6c6;
+
+    --progress-bar-background: rgba(0, 0, 0, 0.5);
+
+    --progress-bar-border: #FFFFFF;
+
+    --names-color: rgba(127, 127, 127, 0.5);
+}
+
+
+
+/* FRI HOMECOMING: BLACKOUT */
 :root {
     --text-color: #ffffff;
 
