@@ -33,10 +33,6 @@
 
 /* DO NOT EDIT BELOW THIS TEXT (UNLESS YOU KNOW WHAT YOU'RE DOING) */
 
-/* * {
-    font-family: var(--font-family);
-} */
-
 body {
    background-image: var(--background);
    font-family: var(--font-family);
@@ -202,8 +198,16 @@ body {
 
 .logo_container {
     position: absolute;
-    left: 15px; /* 20px from the left of the screen */
+    left: 15px;
     display: flex;
-    align-items: center; /* Center vertically within the container */
-    height: 100%; /* Ensures the logo container takes up the full height */
+    align-items: center;
+    height: 100%;
+}
+
+.img_container {
+    position: absolute;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
