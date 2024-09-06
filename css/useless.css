@@ -5,6 +5,8 @@
 /* DEFAULT */
 /* needs done 513987 */
 
+
+
 /* HOMECOMING: POWDER PUFF */
 :root {
     --text-color: #ffffff;
@@ -32,6 +34,7 @@
 
     --names-color: rgb(255, 255, 255);
 }
+
 
 
 /* HOMECOMING: CLASS LEVEL COLORS (RED FOR FRESHMAN!!!) */
@@ -92,4 +95,3 @@
 
     --names-color: rgba(127, 127, 127, 0.5);
 }
-
