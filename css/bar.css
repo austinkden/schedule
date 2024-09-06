@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 /* ONLY EDIT ABOVE THIS LINE TO ADD FONTS - EDIT BELOW THIS LINE TO UPDATE VARIABLES/STYLES */
 
 :root {
     --text-color: #ffffff;
 
-    --font-family: 'DM Sans', sans-serif;
+    --font-family: 'Patrick Hand', 'DM Sans', sans-serif;
 
     --clock-font-family: 'DM Mono', sans-serif;
     /* This font should always remain DM Mono, another Monospace font, or another font that is very easy to read numbers in. */
 
-    --background: linear-gradient(70deg, #d42a2a, #ff70db);
+    --background: linear-gradient(70deg, #c6209d, #ff70db);
 
     --text-background: rgba(0, 0, 0, 0.5);
 
@@ -20,7 +21,7 @@
 
     --progress-bar-angle: to right;
 
-    --progress-bar-color-1: #b01919;
+    --progress-bar-color-1: #7d0960;
 
     --progress-bar-color-2: #e432b8;
 
