@@ -9,22 +9,23 @@
 :root {
     --text-color: #ffffff;
 
-    --font-family: 'DM Sans', sans-serif;
+    --font-family: 'Zilla Slab', 'DM Sans', sans-serif;
 
     --clock-font-family: 'DM Mono', sans-serif;
     /* This font should always remain DM Mono, another Monospace font, or another font that is very easy to read numbers in. */
 
-    --background: linear-gradient(70deg, #d42a2a, #ff70db);
+    --background: linear-gradient(70deg, #042d18, #4a3a08);
 
     --text-background: rgba(0, 0, 0, 0.5);
 
-    --progress-bar-animation-length: 6s;
+    --progress-bar-animation-length: 8s;
+    /* Pre-hoco: 6s */
 
     --progress-bar-angle: to right;
 
-    --progress-bar-color-1: #b01919;
+    --progress-bar-color-1: #042d18;
 
-    --progress-bar-color-2: #e432b8;
+    --progress-bar-color-2: #4a3a08;
 
     --progress-bar-background: rgba(0, 0, 0, 0.5);
 
