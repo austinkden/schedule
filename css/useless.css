@@ -69,7 +69,7 @@
 
 /* THURS HOMECOMING: WHITE/TOGA */
 :root {
-    --text-color: #000000;
+    --text-color: #797979;
 
     --font-family: 'Lora', 'DM Sans', sans-serif;
 
@@ -89,7 +89,7 @@
 
     --progress-bar-color-2: #c6c6c6;
 
-    --progress-bar-background: rgba(255, 255, 255, 0.5);
+    --progress-bar-background: rgba(255, 255, 255, 0.3);
 
     --progress-bar-border: #000000;
 
