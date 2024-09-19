@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 /* ONLY EDIT ABOVE THIS LINE TO ADD FONTS - EDIT BELOW THIS LINE TO UPDATE VARIABLES/STYLES */
-
+ 
 :root {
     --text-color: #ffffff;
 
@@ -14,7 +14,7 @@
     --clock-font-family: 'DM Mono', sans-serif;
     /* This font should always remain DM Mono, another Monospace font, or another font that is very easy to read numbers in. */
 
-    --background: linear-gradient(70deg, #c6209d, #ff70db);
+    --background: linear-gradient(70deg, #da294f, #ff70db);
 
     --text-background: rgba(0, 0, 0, 0.5);
 
@@ -24,7 +24,7 @@
 
     --progress-bar-color-1: #7d0960;
 
-    --progress-bar-color-2: #e432b8;
+    --progress-bar-color-2: #830c16;
 
     --progress-bar-background: rgba(0, 0, 0, 0.5);
 
