@@ -14,7 +14,7 @@
     --font-family: 'Patrick Hand', 'DM Sans', sans-serif;
 
     --clock-font-family: 'DM Mono', sans-serif;
-    /* This font should always remain DM Mono, another Monospace font, or another font that is very easy to read numbers in. */
+    /* This font should always remain DM Mono or another font that is very easy to read numbers in. */
 
     --background: linear-gradient(70deg, #da294f, #ff70db);
 
