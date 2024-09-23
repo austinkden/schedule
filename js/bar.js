@@ -297,7 +297,5 @@ setInterval(getSchedules, 1000*60*60*24);
 
 reloadPage(6);
 reloadPage(7);
-reloadPage(17);
 reloadPageAt(6);
 reloadPageAt(7);
-reloadPageAt(17);
