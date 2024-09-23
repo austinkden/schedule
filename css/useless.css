@@ -30,8 +30,6 @@
     --names-color: rgb(255, 255, 255);
 }
 
-
-/* verified */
 /* MON HOMECOMING: POWDER PUFF */
 :root {
     --text-color: #ffffff;
@@ -60,8 +58,6 @@
     --names-color: rgb(255, 255, 255);
 }
 
-
-/* verified */
 /* TUES HOMECOMING: CLASS LEVEL COLORS (RED FOR FRESHMAN!!!) */
 :root {
     --text-color: #ffffff;
@@ -90,10 +86,8 @@
     --names-color: rgb(255, 255, 255);
 }
 
+/* WEDNS HOMECOMING: DEFAULT/T */
 
-/* just do normal for wedns */
-
-/* verified */
 /* THURS HOMECOMING: WHITE/TOGA */
 :root {
     --text-color: #797979;
@@ -122,8 +116,6 @@
 
     --names-color: rgb(0, 0, 0);
 } 
-
-
 
 /* FRI HOMECOMING: BLACKOUT */
 :root {
